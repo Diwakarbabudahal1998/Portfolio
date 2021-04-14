@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="public/css/app.css">
+
+
+</head>
+
+<body>
+
+    <header id="banner">
+        <div class="blurbanner">
+            <section id="navigation">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+                        <a class="navbar-brand text-uppercase" href="#"
+                            style="font-family: cursive; font-size:xx-large;">Diwakar<span class=text-info></span> </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav ml-auto">
+                                <a class="nav-item nav-link active text-uppercase font-weight-bold mr-4" href="#">Home
+                                    <span class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link text-uppercase font-weight-bold mr-4"
+                                    href="#about">About</a>
+                                <a class="nav-item nav-link text-uppercase font-weight-bold mr-4" href="#">Skills</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+            <section id="main-text mt-5">
+                <div class="container">
+                    <div class="row mt-5 py-5">
+                        <div class="col-md-5 text-center" data-sal="slide-up" data-sal-delay="300"
+                            data-sal-easing="ease-out-back" data-sal-duration="1200">
+                            <h1 class="text-uppercase text-light font-weight-bold">Diwakar <span class="text-light">Babu
+                                    Dahal</span></h2>
+                                <hr class="bg-info ml-auto mr-auto" style="width: 100px; height: 4px;">
+                                <h5 class="font-weight-light text-light">I am a Web Developer - Backend Developer</h2>
+                                    <div class=" py-4">
+                                        <a href="https://www.facebook.com/diwakar.dahal.75" target="_blank"
+                                            class="text-light pr-3"><i id="social-fb"
+                                                class="fab fa-facebook-square social"></i></a>
+
+                                        <a href="https://www.instagram.com/_diwakar_dahal_/" target="_blank"
+                                            class="text-light pr-3"><i id="social-gp"
+                                                class="fab fa-instagram social"></i></a>
+                                        <a href="https://github.com/Diwakarbabudahal1998" target="_blank"
+                                            class="text-light pr-3"><i id="social-git"
+                                                class="fab fa-github social"></i></a>
+                                        <a href="https://linkedin.com/in/diwakar-babu-dahal-208321125" target="_blank"
+                                            class="text-light pr-3"><i id="social-ln"
+                                                class="fab fa-linkedin social"></i></a>
+                                    </div>
+                        </div>
+                        <div class="col-md-4 offset-md-3 contact-form" data-sal="fade" data-sal-delay="300"
+                            data-sal-easing="ease-out-back" data-sal-duration="1200">
+                            <div class="alert alert-danger" role="alert" id="email-alert">
+                                <strong>Error!</strong> Please Enter your Email Adddress.
+                            </div>
+                            <div class="alert alert-danger" role="alert" id="message-alert">
+                                <strong>Error!</strong> Please Enter your Message.
+                            </div>
+                            <div class="alert alert-success" role="alert" id="success-alert">
+                                <strong>Succss!</strong> Email Sent Successfully.
+                            </div>
+                            <div class="form text-center">
+                                <form action="heelo.html">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-center"></div>
+                                            <h4 class="text-center text-info mb-3 text-uppercase">Contact Me</h4>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control email" id="Email" style="color: white;"
+                                                    placeholder="Email" required>
+                                            </div>
+                                            <br>
+                                            <div class="input-group">
+                                                <textarea name="" id="Message" cols="30" rows="5"
+                                                    class="form-control border-rounded" style="color: white;"
+                                                    placeholder="Message"></textarea>
+                                            </div>
+                                            <br>
+                                            <button type="button" class="btn btn-info submit" value="Send Email"
+                                                onclick="sendEmail()"> Send Email </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-back"
+                    data-sal-duration="1200">
+                    <img src="https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/32873709_2120828088057278_3770801047585423360_n.jpg?_nc_cat=101&_nc_sid=174925&_nc_ohc=JyvPQGbvzesAX990kq-&_nc_ht=scontent.fktm8-1.fna&oh=0f126052001cbe9cd0b50e5098a4000b&oe=5EF8024A"
+                        class="rounded-circle profile-img" alt="">
+                </div>
+                <div class="col-md-4 mt-5" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-back"
+                    data-sal-duration="1200">
+                    <h2 class="text-info text-uppercase">About Me</h2>
+                    <hr class="bg-dark ml-0 " style="width: 100px; height: 4px;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="public/images/myivesignature.png" alt="" height="60px" class="img-fluid">
+                </div>
+                <div class="col-md-9  text-justify">
+                    <div data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-back"
+                        data-sal-duration="1200">
+                        <p>
+                            Hi I'm Diwakar Babu Dahal, a Backend Developer/Front End Designer. Coding and Designing has
+                            always been my passion from my inital days with computer and found myself pursuing my
+                            career in the same field.
+                        </p>
+                        <p>
+                            I am focused on developing great web experiences with secure Backend, Restful Api's and
+                            beautiful UI.
+                            I am a guy with a humble attitude and strong personality which can help flurish your
+                            business digitally.
+                        </p>
+                    </div>
+                    <div data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-back"
+                        data-sal-duration="1200"> <button class="btn btn-info"> Download CV</button></div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="public/js/app.js"></script>
+<script src="public/js/email.js"></script>
+<script src="public/js/sal.js"></script>
+<script>sal();</script>
+
+</html>

@@ -1,0 +1,130 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+//sal.js
+@import '~sal.js/dist/sal.css';
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;0,900;1,700;1,800&display=swap');
+
+
+body{
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    font-family: 'BioRhyme', serif;
+}
+p{
+    font-size:20px;
+}
+
+#banner{
+    height:110vh;
+    background-image: url(https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-0/p640x640/29314469_2086495221490565_1400894121500999680_o.jpg?_nc_cat=103&_nc_sid=e3f864&_nc_ohc=1UlB5ZnDXGsAX-7Kmos&_nc_ht=scontent.fktm8-1.fna&_nc_tp=6&oh=4c494d685b75cf8fb7a078fccefc93f3&oe=5EF3B46B);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.blurbanner{
+    height:110vh;
+    background-color: rgba($color: #000000, $alpha: 0.4);
+}
+// .navbar-nav {
+//     overflow: hidden;
+//     background-color: #f1f1f1;
+//   }
+  
+//   .navbar-nav a {
+//     float: left;
+//     display: block;
+//     color: black;
+//     text-align: center;
+//     padding: 14px 16px;
+//     text-decoration: none;
+//     font-size: 17px;
+//     border-bottom: 3px solid transparent;
+//   }
+  .navbar-nav a:hover{
+   color:#28a745 !important;
+    
+  }
+  .navbar-nav a.active {
+    border-bottom: 3px solid #17a2b8;
+  }
+
+  .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    font-size: 50px;
+}
+
+/*
+   Multicoloured Hover Variations
+*/
+
+#social-fb:hover {
+    color: #3B5998;
+}
+#social-tw:hover {
+    color: #4099FF;
+}
+#social-gp:hover {
+    color: #d34836;
+}
+#social-em:hover {
+    color: #f39c12;
+}
+
+#social-git:hover{
+    color: #1f1e1d;
+}
+#social-ln:hover{
+    color:#0073B0;
+}
+
+.card{
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    );
+    border-radius: 30px;
+}
+.form-control{
+    border-color: #17a2b8;
+    background: transparent;
+}
+.form-control:focus{
+    background: transparent;
+}
+.form-control::placeholder{
+    color:white;
+}
+.email{
+    border-radius: 50px;
+}
+.submit{
+    border-radius: 50px;
+}
+.profile-img{
+    height: 210px;
+    width:  210px;
+    margin-top: -50px;
+    border-color: #17a2b8;
+}
+
+
+@media only screen and (max-width: 600px) {
+ .contact-form{
+     display: none;
+ }
+  }
